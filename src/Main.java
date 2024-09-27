@@ -27,11 +27,11 @@ public class Main {
         int option;
 
         do {
-            System.out.println("Seleccione una opción (1-23) o 24 para salir:");
-            for (int i = 1; i <= 23; i++) {
+            System.out.println("Seleccione una opción (1-5) o 6 para salir:");
+            for (int i = 1; i <= 5; i++) {
                 System.out.println("Opción " + i);
             }
-            System.out.println("24. Salir");
+            System.out.println("6. Salir");
 
             option = sc.nextInt();
 
